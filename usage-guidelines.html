@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usage Guidelines - Mdkey Bot</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=rule" />
+    <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=TASA+Explorer:wght@400;500;600;700&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Tinos', serif;
+            background: #000000;
+            color: #ffffff;
+            line-height: 1.8;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 60px 40px;
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: #999;
+            text-decoration: none;
+            margin-bottom: 40px;
+            font-size: 14px;
+            transition: color 0.3s;
+        }
+
+        .back-link:hover {
+            color: #fff;
+        }
+
+        header {
+            margin-bottom: 60px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid #222;
+        }
+
+        .header-icon {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 20px;
+        }
+
+        .header-icon .material-symbols-outlined {
+            font-size: 40px;
+            color: #fff;
+        }
+
+        h1 {
+            font-family: 'TASA Explorer', sans-serif;
+            font-size: 42px;
+            font-weight: 600;
+            letter-spacing: -1px;
+            margin-bottom: 12px;
+        }
+
+        .subtitle {
+            font-size: 16px;
+            color: #999;
+        }
+
+        .content h2 {
+            font-family: 'TASA Explorer', sans-serif;
+            font-size: 24px;
+            font-weight: 500;
+            margin-top: 50px;
+            margin-bottom: 20px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid #1a1a1a;
+        }
+
+        .content p {
+            margin-bottom: 16px;
+            color: #ccc;
+            font-size: 15px;
+        }
+
+        .content ul {
+            margin: 16px 0 16px 24px;
+            color: #ccc;
+        }
+
+        .content li {
+            margin-bottom: 10px;
+            font-size: 15px;
+        }
+
+        .content strong {
+            color: #fff;
+            font-weight: 700;
+        }
+
+        .guideline-box {
+            background: #0a0a0a;
+            border-left: 3px solid #fff;
+            padding: 24px;
+            margin: 30px 0;
+        }
+
+        .guideline-box h3 {
+            font-family: 'TASA Explorer', sans-serif;
+            font-size: 18px;
+            margin-bottom: 12px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 0;
+            margin-top: 80px;
+            border-top: 1px solid #222;
+            font-size: 14px;
+            color: #666;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 40px 20px;
+            }
+
+            h1 {
+                font-size: 32px;
+            }
+
+            .content h2 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-link">← Back to Policies</a>
+
+        <header>
+            <div class="header-icon">
+                <span class="material-symbols-outlined">rule</span>
+                <h1>Usage Guidelines</h1>
+            </div>
+            <p class="subtitle">Best practices for using Mdkey Bot</p>
+        </header>
+
+        <div class="content">
+            <h2>Getting Started</h2>
+            <p>Mdkey Bot helps you configure your Discord server through natural conversation. Here's how to use it effectively:</p>
+
+            <div class="guideline-box">
+                <h3>Basic Commands</h3>
+                <ul>
+                    <li><strong>/setup</strong> - Start a conversational setup session</li>
+                    <li><strong>/config</strong> - Manage trusted roles and bot settings</li>
+                    <li><strong>/dryrun</strong> - Toggle preview mode without executing changes</li>
+                </ul>
+            </div>
+
+            <h2>Best Practices</h2>
+            
+            <p><strong>1. Use Dry-Run Mode First</strong></p>
+            <p>Before making changes to your server, enable dry-run mode to preview what the bot will do without actually executing the actions.</p>
+
+            <p><strong>2. Be Specific in Your Requests</strong></p>
+            <p>The more specific you are about what you want, the better the bot can help you. Instead of "set up channels," try "create a welcome category with rules and announcements channels."</p>
+
+            <p><strong>3. Review Before Confirming</strong></p>
+            <p>Always carefully review the action preview before confirming. The bot will show you exactly what it plans to do.</p>
+
+            <p><strong>4. Configure Trusted Roles</strong></p>
+            <p>Set up trusted roles to control who can use the bot's setup commands. Only administrators and trusted roles can execute server changes.</p>
+
+            <p><strong>5. Backup Important Data</strong></p>
+            <p>Before making significant changes to your server, consider backing up important information or taking screenshots of your current setup.</p>
+
+            <h2>What You Can Do</h2>
+            <ul>
+                <li>Create and organize channels and categories</li>
+                <li>Configure channel permissions for roles and users</li>
+                <li>Set up read-only channels and moderator-only areas</li>
+                <li>Post messages and templates to channels</li>
+                <li>Create threads in existing channels</li>
+                <li>Modify channel properties (topic, slowmode, NSFW)</li>
+            </ul>
+
+            <h2>What to Avoid</h2>
+            <ul>
+                <li>Don't use the bot to spam or flood your server</li>
+                <li>Don't attempt to exploit or abuse the bot's functionality</li>
+                <li>Don't use the bot for malicious purposes</li>
+                <li>Don't share your bot configuration with untrusted users</li>
+                <li>Don't make destructive changes without careful consideration</li>
+            </ul>
+
+            <h2>Rate Limits</h2>
+            <p>To prevent abuse, the bot implements rate limiting:</p>
+            <ul>
+                <li>10 requests per minute per user</li>
+                <li>100 requests per hour per user</li>
+            </ul>
+            <p>If you hit the rate limit, wait a few minutes before trying again.</p>
+
+            <h2>Getting Help</h2>
+            <p>If you need assistance or have questions:</p>
+            <ul>
+                <li>Review the bot's responses carefully - they often contain helpful guidance</li>
+                <li>Use dry-run mode to experiment safely</li>
+                <li>Contact us at <strong>Mdkey.Bot@gmail.com</strong> for support</li>
+            </ul>
+
+            <h2>Example Conversations</h2>
+            
+            <div class="guideline-box">
+                <h3>Creating a Welcome Section</h3>
+                <p><strong>You:</strong> /setup</p>
+                <p><strong>Bot:</strong> Hello! What would you like to configure?</p>
+                <p><strong>You:</strong> Create a welcome section with rules and announcements</p>
+                <p><strong>Bot:</strong> I'll create a "Welcome" category with two channels... Would you like me to proceed?</p>
+                <p><strong>You:</strong> yes</p>
+                <p><strong>Bot:</strong> Successfully completed all actions!</p>
+            </div>
+
+            <h2>Tips for Success</h2>
+            <ul>
+                <li>Start with small changes to get familiar with the bot</li>
+                <li>Use natural language - the bot understands conversational requests</li>
+                <li>Ask the bot for suggestions if you're unsure what to do</li>
+                <li>Take advantage of the confirmation step to review changes</li>
+                <li>Keep your server organized by using categories effectively</li>
+            </ul>
+        </div>
+
+        <footer>
+            <p>&copy; 2026 Mdkey Bot. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
